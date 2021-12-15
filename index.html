@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to jiyun's web</title>
+    <style>
+        *{front-family: 궁서체, "맑은 고딕", arial, helvetica, sans-serif;}
+        header h1 {display: inline;}
+        header img {height: 100px;}
+        ul {list-style: none;}
+        a{text-decoration: none; }
+        nav ul {
+            text-align: center; border-top: 2px solid #008B8B;
+            border-bottom: 2px solid #008B8B; padding: 15px 10px;
+        }
+        nav ul li:hover{
+            background-color: #008B8B;
+        }
+        nav li a:hover{
+            color: bisque;
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/images-2/ss.jpeg" alt="me">
+        <h1>jiyun Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="photo">
+            <img src="./images/It's me.png" alt="me">
+            <br>
+            <hr>
+            <h2>좋아하는 노래</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IgPcbE--mMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+            <h2>인상깊게 본 드라마 장면</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j0174TkAg1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        <div id="profile">
+            <h2>jiyun profile</h2>
+            <table border="1">
+                <tr>
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>구분</th>
+                </tr>
+                <tr>
+                    <td>현재</td>
+                    <td>동아대학교 경영정보학과 재학</td>
+                    <td>2학년</td>
+                </tr>
+                <tr>
+                    <td>20.9~20.12</td>
+                    <td>프로그래밍언어</td>
+                    <td>이수</td>
+                </tr>
+                <tr>
+                    <td>21.3~21.8</td>
+                    <td>웹프로그래밍</td>
+                    <td>이수 중</td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div id="link">
+            <!-- 문서간의 이동 -->
+            <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a><br>
+            <a href="http://www.naver.com" target="_self">네이버</a><br>
+            <a href="start.html">start페이지이동</a><br>
+            <!-- 문서내 이동 -->
+            <a href="#photo"> 사진으로 이동</a>
+        </div>
+        <div id="login">
+            <form action="#" method="GET">
+                아이디 : <input type="text" name="name"> <br>
+                비밀번호 : <input type="password" name="pass" id="pass"> <br>
+                <input type="submit" value="확인">
+                <input type="reset" value="취소">
+            </form>
+
+
+        </div>
+
+        </form>
+    </section>
+    <footer> &copy; jiyun</footer>
+</body>
+
+</html>
